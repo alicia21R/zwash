@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login form </title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    
+    <main class="container">
+        <div class="bg-light p-5 rounded mt-3">
+          <h1>Login</h1>
+    <form action="/">
+      <hr>
+      <div class="account-type">
+        <input type="radio" value="none" id="radioOne" name="account" checked/>
+        <label for="radioOne" class="radio">Administration</label>
+
+        <input type="radio" value="none" id="radioTwo" name="account" />
+        <label for="radioTwo" class="radio">Manager</label>
+      </div>
+      <hr>
+
+      <label id="icon" for="name"><i class="fa fa-user"></i></label>
+      <input type="text" name="name" id="name" placeholder="Name" required/>
+      <label id="icon" for="name"><i class="fa fa-unlock-alt"></i></label>
+      <input type="password" name="name" id="name" placeholder="Password" required/>
+        <hr>
+      <div class="btn-block">
+        <p> <a href="#">Privacy Policy for Zaabu Washing Limited</a>.</p>
+        <button type="submit" href="tracker.html">Submit</button>
+      </div>
+    </form>
+        </div>
+      </main>
+
+      <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark navy">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa fa-car"></i>
+                ZaWash
+              </a>
+         
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a href="index.html" class="nav-link ">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="about.html" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="login.html" class="nav-link contact">Sign Out</a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+      
+    
+</body>
+</html>
