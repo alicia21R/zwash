@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login form </title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/costmonitor.css">
+</head>
+<body>
+        <main class="container">
+                <div class="bg-light p-5 rounded mt-3">
+                  <h1>Cost Monitor ZaWash</h1>
+            <form action="/">
+              <hr>
+              
+              <label id="icon" for="arrivalTime"><i class="fa fa-clock-o"></i></label>
+              <input type="text"  onclick="(this.type='time')" name="checkin time" id="arrivalTime" placeholder="Arrival Time" required/>
+
+              <label id="icon" for="date"><i class="fa fa-calendar-check-o"></i></label>
+              <input type="text"  onclick="(this.type='date')" name="date" id="date" placeholder="Date">
+
+              <label id="icon" for="washerID"><i class="fa fa-user"></i></label>
+              <input type="text" name="employee" id="washerID" placeholder="Emplooyee ID" required/>
+
+              <label id="icon" for="cost"><i>Z-</i></label>
+              <input type="number" name="polish" id="cost" placeholder="Polish" required/>
+
+              <label id="icon" for="cost"><i class="fa fa-car"></i></label>
+              <input type="number" name="detergent" id="cost" placeholder="Powdered Detergent " required/>
+
+              <label id="icon" for="cost"><i class="fa fa-car"></i></label>
+              <input type="number" name="electricityUnit" id="cost" placeholder="Electricity Unit" required/>
+
+
+              <label id="icon" for="washpay"><i class="fa fa-car"></i></label>
+              <select type="currency" name="washerPay" id="washpay" placeholder="Daily Pay">
+                    <option value="car-wash-package" selected>Employee Pay</option>
+                    <option value="Boda-Boda">UGX 1500shs</option>
+                    <option value="Small-Cars">UGX 3000shs</option>
+                    <option value="Medium-Car">UGX 4000shs</option>
+                </select>
+
+
+
+                <hr>
+              <div class="btn-block">
+                <button type="submit" href="/">Submit</button>
+              </div>
+            </form>
+                </div>
+              </main>
+
+      <!-- bottom nav footer -->
+
+      <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark navy">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa fa-car"></i>
+                ZaWash
+              </a>
+         
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a href="index.html" class="nav-link ">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="about.html" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="login.html" class="nav-link contact">Sign Out</a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+      
+    
+</body>
+</html>
+
+
