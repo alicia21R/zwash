@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login form </title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    
+    <main class="container">
+        <!-- <div class="bg-light p-5 rounded mt-3">
+          <h1>Register Here</h1> -->
+          <form method="POST">
+                <p>WASHER INFORMATION</p>
+                <div class="item">
+                  <!-- <div class="name-item"> -->
+                  <input
+                    id="name"
+                    type="text"
+                    name="name"
+                    placeholder="ENTER YOUR FULL NAME"
+                    required
+                  />
+                  <!-- </div> -->
+                </div>
+                <div class="item">
+                  <input
+                    id="bdate"
+                    name="bdate"
+                    onclick="(this.type='date')"
+                    placeholder="DATE OF BIRTH"
+                    required
+                  />
+                </div>
+                <div class="item">
+                  <input
+                    id="phone"
+                    type="tel"
+                    name="phone"
+                    placeholder="PHONE NUMBER"
+                    required
+                  />
+                </div>
+                <div class="item">
+                  <input
+                    id="name"
+                    type="text"
+                    name="name"
+                    placeholder="ENTER YOUR NEXT OF KIN"
+                    required
+                  />
+                </div>
+                <div class="item">
+                  <input
+                    id="phone"
+                    type="tel"
+                    name="phone"
+                    placeholder="CONTACT INFORMATION"
+                    required
+                  />
+                </div>
+                <div class="item">
+                  <select class="opt">
+                    <option selected value="" disabled selected>HOME ADDRESS</option>
+                    <option>katanga</option>
+                    <option>kalerwe</option>
+                    <option>mawanda road</option>
+                    <option>other</option>
+                  </select>
+                </div>
+                <div class="item">
+                  <input
+                    id="phone"
+                    type="text"
+                    name="idn"
+                    placeholder="ENTER YOUR NATIONAL ID NUMBER"
+                    required
+                  />
+                </div>
+                <div class="question">
+                  <input type="radio" id="radio_1" name="terms" />
+                  <label for="radio_1" class="radio"
+                    ><span>I AGREE TO THE TERMS AND CONDITIONS</span></label
+                  >
+                </div>
+        
+                <div class="btn-block">
+                  <button type="submit">SUBMIT</button>
+                </div>
+              </form>
+        </div>
+      </main>
+
+      <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark navy">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa fa-car"></i>
+                ZaWash
+              </a>
+         
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a href="index.html" class="nav-link ">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="about.html" class="nav-link">About</a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+      
+    
+</body>
+</html>
